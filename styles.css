@@ -1,0 +1,58 @@
+body {
+  background: #131419;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 60px;
+  border-radius: 10px;
+  background: #131419;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  color: #d9d9d9;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 4vh;
+}
+#app {
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 4vh;
+}
+.main .input {
+  color: #cfcfcf;
+  background: #131419;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 4vh;
+  padding: 10px;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.main #submit,
+#next-step {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  margin-top: 20px;
+  font-size: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.main #submit:active,
+#next-step:active {
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
